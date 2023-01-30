@@ -62,7 +62,7 @@ export class AppComponent {
 
   constructor(config: NgbCarouselConfig, private sanitizer: DomSanitizer){
     config.animation = false;
-    config.showNavigationArrows = true;
+    config.showNavigationArrows = false;
     config.interval = 3000;
   }
 }
